@@ -1,4 +1,4 @@
-import { Application, autoDetectRenderer } from 'pixi.js';
+import { Application, autoDetectRenderer } from './pixi.js';
 
 const app = new Application();
 
