@@ -1,4 +1,4 @@
-import { Sprite, Application, autoDetectRenderer } from './pixi.js';
+import { Sprite, Application, autoDetectRenderer } from "pixi.js";
 
 const app = new Application();
 
