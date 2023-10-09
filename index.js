@@ -1,4 +1,4 @@
-import { Application, autoDetectRenderer } from './pixi.js';
+import { Sprite, Application, autoDetectRenderer } from './pixi.js';
 
 const app = new Application();
 
@@ -10,3 +10,12 @@ const app = new Application();
 })
 
 document.body.appendChild(app.view);
+
+const bunny = Sprite.from('https://pixijs.com/assets/bunny.png');
+
+app.stage.addChild(bunny);
+
+bunny.anchor.set(0.5);
+
+bunny.x = app.screen.width / 2;
+bunny.y = app.screen.height / 2;
